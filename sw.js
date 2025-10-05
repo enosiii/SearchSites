@@ -3,7 +3,11 @@ const ASSETS_TO_CACHE = [
   '/SearchSites/',
   '/SearchSites/index.html',
   '/SearchSites/images/icon192.png',
-  '/SearchSites/images/icon512.png'
+  '/SearchSites/images/icon512.png',
+  '/SearchSites/script.js',
+  '/SearchSites/manifest.json',
+  '/SearchSites/Sites.json',
+  'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css',
 ];
 
 // Install the service worker and cache assets
