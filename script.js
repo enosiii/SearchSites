@@ -6,6 +6,7 @@ const searchContainer = document.getElementById('search-container');
 // NEW: Define the initial view state for History API
 const LIST_STATE = { view: 'list' }; 
 
+
 // 1. Fetch the JSON data when the page loads
 async function loadSites() {
     try {

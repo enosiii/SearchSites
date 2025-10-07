@@ -2,6 +2,11 @@ const CACHE_NAME = 'SearchSites-v1';
 const ASSETS_TO_CACHE = [
   '/SearchSites/',
   '/SearchSites/index.html',
+  '/SearchSites/styles.css',
+  '/SearchSites/script_page_load.js',
+  '/SearchSites/login.html',
+  '/SearchSites/login.js',
+  '/SearchSites/login.css',
   '/SearchSites/images/icon192.png',
   '/SearchSites/images/icon512.png',
   '/SearchSites/script.js',
