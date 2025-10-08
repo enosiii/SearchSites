@@ -118,7 +118,7 @@ function showSiteDetails(site) {
         
         <div class="detail-item"><strong>Devices:</strong> ${site.Devices.replace(/\n/g, '<br>')}</div>
         
-        <div class="detail-item"><strong>Other Details:</strong> ${site['Other Details'].replace(/\n/g, '<br>')}</div>
+        <div class="detail-item"><strong>Other Details:</strong><br> ${site['Other Details'].replace(/\n/g, '<br>')}</div>
         
         <div class="detail-item"><strong>Coordinates:</strong> ${site.Latitude}, ${site.Logitude}</div>
         

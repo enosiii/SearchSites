@@ -3,7 +3,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     const AUTH_KEY = 'isAuthenticatedUntil';
-    const EXPIRATION_HOURS = 24;
+    const EXPIRATION_HOURS = 48; // Authentication valid for 48 hours
     
     const loginForm = document.getElementById('loginForm');
     const passwordInput = document.getElementById('password');
