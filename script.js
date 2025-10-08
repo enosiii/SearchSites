@@ -116,9 +116,9 @@ function showSiteDetails(site) {
         <div class="detail-item"><strong>Address:</strong> ${site.Address}</div>
         <a href="${mapsUrl}" target="_blank" class="map-button">Open Google Maps</a>
         
-        <div class="detail-item"><strong>Devices:</strong> ${site.Devices.replace(/\n/g, '<br>')}</div>
+        <div class="detail-item"><strong>Devices:</strong><br> ${site.Devices.replace(/\n/g, '<br>')}</div>
         
-        <div class="detail-item"><strong>Other Details:</strong><br> ${site['Other Details'].replace(/\n/g, '<br>')}</div>
+        <div class="detail-item"><strong>Other Details:</strong><br>${site['Other Details'].replace(/\n/g, '<br>')}</div>
         
         <div class="detail-item"><strong>Coordinates:</strong> ${site.Latitude}, ${site.Logitude}</div>
         
